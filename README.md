@@ -19,23 +19,6 @@ This project is a **custom language compiler** built in Python that lets users w
 
 ---
 
-###Project Structure
-
-The project structure is a follows:
-custom-lang-compiler/
-│
-├── compiler/
-├── lexer.py              # Tokenizes Hinglish input
-├── parser.py             # Builds parse tree from tokens
-├── ast_nodes.py          # Defines all AST node types
-├── custom_ast_generator.py  # Converts parse tree into AST
-├── semantic.py           # Checks for semantic errors
-├── codegen.py            # Generates Python code from AST
-├── compiler.py           # Driver script combining all phases
-=======
-
----
-
 ## 🧪 Sample Hinglish Code
 
 ```hinglish
