@@ -1,0 +1,54 @@
+// Valid Test Case 1 (array code)
+shuru karo
+    soochi nums barabar [10, 20, 30] ardhaviram
+    dikhao kholo nums[1] band ardhaviram
+khatam karo
+
+// valid test case 2 (simple code)
+shuru karo
+    rakho x barabar 5 ardhaviram
+    dikhao kholo x band ardhaviram
+khatam karo
+
+//valid test case 3 (for loop)
+shuru karo
+    ke liye kholo
+        rakho i barabar 0 ardhaviram
+        i chota hai 5 ardhaviram
+        rakho i barabar i jodo 1 ardhaviram
+    band shuru bhai
+        dikhao kholo i band ardhaviram
+    band karo
+khatam karo
+
+//valid test case 4 (while loop)
+shuru karo
+    rakho i barabar 0 ardhaviram
+
+    jabtak kholo i chota hai 5 band shuru bhai
+        dikhao kholo i band ardhaviram
+        rakho i barabar i jodo 1 ardhaviram
+    band karo
+khatam karo
+
+//valid test case 5 (if-else code)
+shuru karo
+    rakho score barabar 75 ardhaviram
+
+    agar kholo score chota hai 90 band shuru bhai
+        dikhao kholo "Good score" band ardhaviram
+    band karo warna shuru bhai
+        dikhao kholo "Try again" band ardhaviram
+    band karo
+khatam karo
+
+// Edge Case 1 - Unknown keyword
+shuru karo
+    likho x barabar 10 ardhaviram
+    dikhao kholo x band ardhaviram
+khatam karo
+
+// Edge Case 2 - Use of undefined variable
+shuru karo
+    dikhao kholo y band ardhaviram
+khatam karo

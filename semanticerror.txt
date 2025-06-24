@@ -1,0 +1,40 @@
+// Semantic Error
+//example 1
+shuru karo
+    rakho x barabar 10 ardhaviram
+    dikhao kholo y band ardhaviram
+khatam karo
+
+//example 2
+shuru karo
+    rakho a barabar 10 ardhaviram
+    rakho b barabar 0 ardhaviram
+    rakho c barabar a bhag b ardhaviram
+    dikhao kholo c band ardhaviram
+khatam karo
+
+//undefined array
+shuru karo
+    dikhao kholo x[1] band ardhaviram
+khatam karo
+
+//index not an integer
+shuru karo
+    soochi x barabar [1, 2, 3] ardhaviram
+    rakho i barabar "one" ardhaviram
+    dikhao kholo x[i] band ardhaviram
+khatam karo
+
+//array out of bound
+shuru karo
+    soochi x barabar [1, 2] ardhaviram
+    dikhao kholo x[5] band ardhaviram
+khatam karo
+
+//unsupported operations
+shuru karo
+    rakho a barabar 10 ardhaviram
+    rakho b barabar "ans" ardhaviram
+    rakho c barabar a jodo b ardhaviram
+    dikhao kholo c band ardhaviram
+khatam karo

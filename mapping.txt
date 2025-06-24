@@ -1,0 +1,47 @@
+Hinglish-to-Standard Code Mapping (Updated)
+
+[Keywords]
+shuru karo     => Start of program         => int main() / def main()
+khatam karo    => End of program           => return 0 / function end
+rakho          => Variable declaration     => int / var / let
+barabar        => Assignment operator      => =
+dikhao         => Print to console         => print() / cout <<
+agar           => If condition             => if
+nahi to        => Else if                  => else if / elif
+warna          => Else                     => else
+jabtak         => While loop               => while
+ke liye        => For loop                 => for
+jab karo       => Do-while loop            => do { ... } while();
+chhodo         => Continue                 => continue
+todo           => Break                    => break
+wapis          => Return                   => return
+
+[Arithmetic Operators]
+jodo           => Add                      => +
+ghatayo        => Subtract                 => -
+guna           => Multiply                 => *
+bhag           => Divide                   => /
+
+[Relational Operators]
+chota hai      => Less than                => <
+bda hai        => Greater than             => >
+barabar hai    => Equal to                 => ==
+
+[Array Handling]
+soochi         => Array declaration        => []
+element        => Array element access     => x[i]
+[              => Left bracket             => [
+]              => Right bracket            => ]
+,              => Comma separator          => ,
+
+[Symbols & Structure]
+kholo          => Opening parenthesis      => (
+band           => Closing parenthesis      => )
+shuru bhai     => Opening brace            => {
+band karo      => Closing brace            => }
+ardhaviram     => Statement end            => ;
+
+[Literals & Identifiers]
+sankhya        => Integer numbers          => \d+
+tanta          => String values            => "..."
+pehchan        => Variable/function names  => [a-zA-Z_]\w*

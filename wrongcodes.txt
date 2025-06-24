@@ -1,0 +1,10 @@
+// Lexical Error
+shuru karo
+    rakho naam barabar @Pranav ardhaviram
+khatam karo
+
+// Parser Error
+shuru karo
+    rakho x barabar 5
+    dikhao kholo x band ardhaviram
+khatam karo
