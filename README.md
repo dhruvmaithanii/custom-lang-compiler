@@ -15,7 +15,6 @@ This project is a **custom language compiler** built in Python that lets users w
 - **Code Generation** – Python output
 - **Graphical Interface** – Tkinter-based GUI
 <<<<<<< HEAD
-- **Parse Tree Visualization** – via Graphviz
 
 ---
 
